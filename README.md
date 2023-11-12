@@ -1,4 +1,4 @@
-# A3-OpenBIM-ReModel
+
 A3 OpenBIM ReModel in 41934 Advanced BIM course of DTU
 
 # 41934 Advanced BIM - A3: OpenBIM ReModel
@@ -25,7 +25,7 @@ In relation to the goal of streamlining the process of conducting a building LCA
 
 Therefore, to initiate this tool’s process and development, we endeavored to develop a tool capable of adding the “MaterialCommon” property set, specifying the mass density for concrete materials, and applying this to all walls in the IFC file constructed with concrete material. Moving forward, this tool would be expanded to include various mass densities for all kinds of materials and introduce multiple new property and quantity sets not yet present in any IFC file. In the following diagram, the process of these tools is displayed, with the current tool process marked with dotted lines along with the goal of the tools until the end event.
 
-![Diagram 1](BPMN_Diagram_1.svg)
+![BPMN_Diagram_1](https://github.com/Emilhjort/A3-OpenBIM-ReModel/assets/145363406/f0c9dc05-7396-4cf8-98a4-0bddd193163b)
 
 Exploring the tool’s future development, various additional features could be incorporated, aiming to enhance the efficiency of every LCA study implementing BIM in their processes.
 
@@ -36,7 +36,7 @@ Another feature could involve the integration of relevant documentation and sour
 ### Process
 This IDM diagram represents the envisioned procedure for our tool when fully developed for the specific use case of LCA. The diagram differs significantly from the previously presented diagram, as this one represents our envisioned tool and the other illustrates our attempt with limited coding skills. 
 
-![Diagram 2](BPMN_Diagram_2.svg)
+![BPMN_Diagram_2](https://github.com/Emilhjort/A3-OpenBIM-ReModel/assets/145363406/5c19b566-8046-4985-a350-0f8f1d80afe1)
 
 Initially, the BIM model must be prepared to correspond with the specific use case, which in this case is an LCA. This must be done by integrating input data including the design model, quantities, properties, and other relevant elements. When the model is ready for simulation the extraction of BIM data becomes feasible for analysis. Once all essential data is extracted into a .json file for LCA, the LCA process can be initiated using dedicated software such as LCAbyg. This software enables direct uploading and utilization of .json files for the LCA procedure. Once the results are checked and validated against the predefined acceptance criteria, the submission will undergo peer review and approval. If the submission meets these criteria, a finalized submission is prepared for the building owner.
 
