@@ -36,7 +36,7 @@ Another feature could involve the integration of relevant documentation and sour
 ### Process
 This IDM diagram represents the envisioned procedure for our tool when fully developed for the specific use case of LCA. The diagram differs significantly from the previously presented diagram, as this one represents our envisioned tool and the other illustrates our attempt with limited coding skills. 
 
-![Diagram 1](BPMN_Diagram_2.svg)
+![Diagram 2](BPMN_Diagram_2.svg)
 
 Initially, the BIM model must be prepared to correspond with the specific use case, which in this case is an LCA. This must be done by integrating input data including the design model, quantities, properties, and other relevant elements. When the model is ready for simulation the extraction of BIM data becomes feasible for analysis. Once all essential data is extracted into a .json file for LCA, the LCA process can be initiated using dedicated software such as LCAbyg. This software enables direct uploading and utilization of .json files for the LCA procedure. Once the results are checked and validated against the predefined acceptance criteria, the submission will undergo peer review and approval. If the submission meets these criteria, a finalized submission is prepared for the building owner.
 
